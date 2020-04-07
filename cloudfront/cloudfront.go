@@ -7,7 +7,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/AdRoll/goamz/aws"
+	"github.com/richmoh/goamz/aws"
 	"net/url"
 	"strconv"
 	"strings"
