@@ -51,7 +51,7 @@ var USEast = Region{
 var USWest = Region{
 	"us-west-1",
 	ServiceInfo{"https://ec2.us-west-1.amazonaws.com", V2Signature},
-	"https://s3-us-west-1.amazonaws.com",
+	"http://localhost:4572", // Using localstack here
 	"",
 	true,
 	true,
